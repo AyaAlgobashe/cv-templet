@@ -1,0 +1,95 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color:  rgba(187, 212, 230, 0.2); 
+}
+.d{
+  display: flex;
+  flex-wrap: wrap;
+}
+main {
+  flex: 40%;
+  padding: 20px;
+}
+aside{
+  flex:30% ;
+  padding: 20px;
+  border-right: 5px solid  rgba(16, 56, 66) ;
+
+}
+.image{
+    display: block;
+        width: 440px;
+        height: 260px;
+}
+.cv{
+    border: 5px solid  rgba(16, 56, 66);
+    width: 450px;
+    height: 1250px;
+    margin-left: 150px;
+    
+}
+
+
+h1{
+    color:rgba(16, 56, 66); 
+    text-align: center;
+}
+h2{
+  color:rgba(16, 56, 66) ;
+  margin-left: 10px;
+  
+}
+span{
+    color:rgba(16, 56, 66); 
+padding-left: 50px;
+    font-size: 20px;
+    
+}
+.l{
+  border-bottom:5px solid  rgba(16, 56, 66); ;
+}
+p{
+  color:rgba(16, 56, 66); 
+margin-left: 30px;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 90%;
+  background-color: #ddd;
+  margin-left: 30px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: rgba(16, 56, 66);}
+.css {width: 80%; background-color: rgba(16, 56, 66);}
+.js {width: 65%; background-color: rgba(16, 56, 66);}
+.php {width: 60%; background-color: rgba(16, 56, 66);}
+
+.Work{
+  text-align:left;
+  font-size:40px;
+  color:rgba(16, 56, 66) ;
+  background-color: rgb(80, 128, 139);;
+  
+}
+.e{
+  border-bottom:5px solid  rgba(16, 56, 66); 
+  
+}
+.x{
+  border-bottom:5px solid  rgba(16, 56, 66); 
+
+}
+footer {
+  height:100px;
+  text-align: center;
+  background-color: rgb(192, 180, 180);
+
+}
